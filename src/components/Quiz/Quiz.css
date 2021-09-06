@@ -1,0 +1,17 @@
+.load {
+  width: 100%;
+}
+.loader {
+  margin-left: 45%;
+  margin-top: 15%;
+}
+.score-section {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 3%;
+  flex-direction: column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

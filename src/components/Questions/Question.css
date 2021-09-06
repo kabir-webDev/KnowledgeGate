@@ -1,0 +1,11 @@
+.purp {
+  background-color: rgb(13, 131, 43);
+}
+
+.question {
+  padding: 1%;
+  background-color: rgb(229, 245, 214);
+  margin: 1% 15%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

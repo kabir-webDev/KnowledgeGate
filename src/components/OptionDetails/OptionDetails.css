@@ -1,0 +1,22 @@
+.catagory-bar {
+  width: 100%;
+  background-color: #283747;
+  margin-top: 0;
+  text-align: center;
+  padding: 1%;
+  box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+.catagory-text {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.difficulty {
+  padding-top: 0.5%;
+  color: rgb(236, 240, 26);
+}
+.text-coloring {
+  color: #fff;
+  text-shadow: 2px 2px 4px #94c970;
+}

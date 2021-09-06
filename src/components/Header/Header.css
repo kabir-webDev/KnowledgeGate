@@ -1,0 +1,17 @@
+.navbar {
+  width: 100%;
+  background-color: #283747;
+  margin-top: 0;
+  text-align: center;
+  padding: 1%;
+  box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.nav_text {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.copyright {
+  padding-top: 0.5%;
+  color: rgb(236, 240, 26);
+}
