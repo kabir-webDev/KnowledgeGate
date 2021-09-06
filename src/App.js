@@ -25,9 +25,6 @@ function App() {
             <OptionDetails category={category} difficulty={difficulty} />
             <Quiz API_URL={API_URL} />
           </Route>
-          <Route exact path='*'>
-            <HomePage setDifficulty={setDifficulty} setCategory={setCategory} />
-          </Route>
         </Switch>
       </Router>
     </div>

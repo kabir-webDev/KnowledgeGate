@@ -3,18 +3,12 @@ import Modal from '@material-ui/core/Modal';
 import { makeStyles } from '@material-ui/core/styles';
 import React, { useEffect } from 'react';
 import './DirectionModal.css';
-function getModalStyle() {
-  return {
-    top: '20%',
-    left: '35%',
-  };
-}
 
 const useStyles = makeStyles((theme) => ({
   paper: {
     position: 'absolute',
-    width: 500,
-    height: 242,
+    maxWidth: 500,
+    maxHeight: 242,
     backgroundColor: '#82E0AA',
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
@@ -34,14 +28,13 @@ const useStyles = makeStyles((theme) => ({
 
 export default function DirectionModal() {
   const classes = useStyles();
-  const [modalStyle] = React.useState(getModalStyle);
   const [open, setOpen] = React.useState(false);
 
   useEffect(() => {
     const open = () => {
       setTimeout(() => {
         setOpen(true);
-      }, 2000);
+      }, 1000);
     };
     open();
   }, []);
@@ -52,7 +45,7 @@ export default function DirectionModal() {
 
   const body = (
     <div className='mod'>
-      <div style={modalStyle} className={classes.paper}>
+      <div className={classes.paper}>
         <h2 className={classes.tagLine} id='simple-modal-title'>
           <u>Only Two Steps to Follow</u>
         </h2>
@@ -68,7 +61,7 @@ export default function DirectionModal() {
         <br />
         <div className={classes.tagLine}>
           <Button variant='contained' onClick={handleClose}>
-            Ready?? 😃
+            Ready? 😃
           </Button>
         </div>
       </div>
