@@ -19,6 +19,18 @@ Knowledge Gate is a Quiz application where a participant can choose between diff
 - FlexBox
 - Trivia API
 
+## Instructional popup
+  <img  width="100%"  height="100%"  src="https://i.ibb.co/6Yxpjzx/1.png"/>
+## Homepage Layout
+  <img  width="100%"  height="100%"  src="https://i.ibb.co/PrBBQPf/2.png"/>
+## Quiz Category Selection
+  <img  width="100%"  height="100%"  src="https://i.ibb.co/MktZJ09/3.png"/>
+## Quiz Header and Progress Track
+  <img  width="100%"  height="100%"  src="https://i.ibb.co/S7bPnb1/4.png"/>
+## Final Score with Motivational gif
+  <img  width="100%"  height="100%"  src="https://i.ibb.co/jTcXKy0/5.png"/>
+  
+
 ####  `Website Link :` https://knowledge-gate.netlify.app/
 
 ### Download and enter "npm i" then "npm start" to run the project
